@@ -48,8 +48,12 @@ Write a blog post addressing the questions:
     
         
     6. **How does Keiding respond to the commentary you picked. What are his main points in his response?**
+
+    
     
 2. **Describe your experience with a data intensive (collaborative) project. What are the most prominent issues with ensuring reproducibility of research results (focus on dta related aspects)? What would you do differently if you could go back in time?**
+
+    I believe the most prominent issues with ensuring reproducibility, in my experience, is ensuring that all machine dependent packages are listed within the code. I have worked in projects where I was using a previously installed package, and was unaware that it was being used and therefore did not directly load the package within my project. This lead to issues with reproducibility when others tried to run the same code. 
 
 
 Go to [https://github.com/Stat585-at-ISU/blog-2019](https://github.com/Stat585-at-ISU/blog-2019) for instructions about how to prepare and submit your blog post.
